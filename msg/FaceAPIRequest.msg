@@ -20,7 +20,7 @@ string content_type
 string request_parameters
 
 # Request's Body: depends on Content-Type; could be empty json, non-empty json, or non-empty binary data
-string request_body
+uint8[] request_body
 
 #
 # Constants

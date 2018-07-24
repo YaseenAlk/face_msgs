@@ -6,7 +6,7 @@ Header header
 
 string app # the app that is receiving the Face API response
 
-int8 response_type
+uint8 response_type
 
 # Response is always sent back as a json
 string response
